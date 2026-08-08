@@ -1,10 +1,10 @@
-# Advaita Semiconductor Technologies (Public Web & Documentation)
+# Advaita Semiconductor Technologies — Public Web & Documentation
 
-Welcome to the public web presence for **Advaita Semiconductor Technologies**.
+[![DOI](https://zenodo.org/badge/1328164402.svg)](https://doi.org/10.5281/zenodo.21855200)
 
-- **Official Web Portal:** [https://DevWizard-Vandan.github.io/advaita-docs/](https://DevWizard-Vandan.github.io/advaita-docs/)
-- **Contact:** `founder@advaita-semi.com`
-- **Location:** Pune, Maharashtra, India
+**Web Portal:** [https://DevWizard-Vandan.github.io/advaita-docs/](https://DevWizard-Vandan.github.io/advaita-docs/)  
+**Contact:** `vandan.advaita@outlook.com`  
+**Location:** Pune, Maharashtra, India
 
 ---
 
@@ -12,15 +12,37 @@ Welcome to the public web presence for **Advaita Semiconductor Technologies**.
 
 To protect core proprietary In-Memory Computing (AIMC) IP and compiler technology, Advaita Semiconductor Technologies operates a dual-repository pattern:
 
-1. **`Advaita` (Private Core IP Repository):** Houses internal compiler algorithms (`advaita_compiler.py`), C++ ABI bindings (`aihwkit_patch.py`), hardware auto-tiling heuristics, and proprietary benchmark datasets.
-2. **`advaita-docs` (Public Web & Benchmark Repository):** Serves the public web portal via GitHub Pages, containing interactive digital-twin simulation widgets, empirical SDK readiness reports, and B2B feasibility audit service briefs.
+| Repository | Visibility | Contents |
+| :--- | :--- | :--- |
+| [`DevWizard-Vandan/Advaita`](https://github.com/DevWizard-Vandan/Advaita) | **Private** | Compiler algorithms, C++ ABI bindings, hardware auto-tiling heuristics, benchmark datasets |
+| [`DevWizard-Vandan/advaita-docs`](https://github.com/DevWizard-Vandan/advaita-docs) | **Public** | Static web portal (GitHub Pages), public benchmark reports, B2B service brief |
 
 ---
 
-## Public Deliverables & Documentation
+## Public Deliverables
 
-- **[B2B Feasibility Audit Service Brief](FEASIBILITY_AUDIT_SERVICE_BRIEF.md):** Information on 14-day hardware-aware digital-twin audits for edge vision and transformer models.
-- **[SDK Readiness Verification Report](SDK_READINESS_REPORT.md):** Empirical verification sweep proving 8-bit DAC/ADC quantization bounds, 365-day 0.00W thermodynamic retention, and <0.095 MHSA MAE accuracy retention.
+- **[B2B Feasibility Audit Service Brief](FEASIBILITY_AUDIT_SERVICE_BRIEF.md):** 14-day hardware-aware digital-twin audit scope, engagement structure, and pricing.
+- **[SDK Readiness Verification Report](SDK_READINESS_REPORT.md):** Empirical verification sweep — 8-bit DAC/ADC quantization bounds, 365-day 0.00W thermodynamic retention, and MHSA MAE < 0.095.
+
+---
+
+## Citation
+
+If you reference the Advaita Compiler SDK or benchmark results in academic or technical work, please cite the archived Zenodo release:
+
+```bibtex
+@software{advaita_aimc_2026,
+  author    = {Vandan},
+  title     = {Project Advaita: Analog In-Memory Computing (AIMC) Core SDK},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21855201},
+  url       = {https://doi.org/10.5281/zenodo.21855201}
+}
+```
+
+**DOI (latest):** `10.5281/zenodo.21855201`  
+**DOI (pinned release):** `10.5281/zenodo.21855200`
 
 ---
 

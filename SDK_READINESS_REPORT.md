@@ -1,9 +1,12 @@
 # Project Advaita: Enterprise Systems & Verification SDK Readiness Report
 
+[![DOI](https://zenodo.org/badge/1328164402.svg)](https://doi.org/10.5281/zenodo.21855200)
+
 **Document ID:** `ADVAITA-SDK-VERIFY-2026-08-09`  
 **Execution Timestamp:** `2026-08-09T01:45:00+05:30`  
 **Role:** Principal Systems & Verification Engineer  
 **Scope:** Automated End-to-End Health-Check & Verification Sweep for B2B Client Audits & Grant Submissions  
+**Zenodo DOI:** [`10.5281/zenodo.21855201`](https://doi.org/10.5281/zenodo.21855201)
 
 ---
 
@@ -105,3 +108,18 @@ The automated compiler transformation engine (`advaita_compiler.convert_to_analo
 ## 5. Audit Conclusion
 
 The Advaita Analog In-Memory Computing (AIMC) Compiler SDK and physics-based tile execution engine are fully verified, numerically stable, and certified for B2B client technical due diligence and grant applications.
+
+---
+
+## Citation
+
+```bibtex
+@software{advaita_aimc_2026,
+  author    = {Vandan},
+  title     = {Project Advaita: Analog In-Memory Computing (AIMC) Core SDK},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21855201},
+  url       = {https://doi.org/10.5281/zenodo.21855201}
+}
+```

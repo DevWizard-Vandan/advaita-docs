@@ -164,7 +164,7 @@ Topology                : ${workloadSelect.options[workloadSelect.selectedIndex]
 Quantization Bounds     : DAC ${dacBits}-Bit (${dacRes}) | ADC ${adcBits}-Bit (${adcRes})
 Noise Injection (σ)     : ${noiseLevel.toFixed(2)} (PCM Readout Drift)
 Digital Baseline Output : [-0.161862,  0.024492, -0.138176,  0.048621,  0.270396]
-Analog Crossbar Output   : [${(-0.161862 + (Math.random()*0.002-0.001)).toFixed(6)},  ${(0.024492 + (Math.random()*0.002-0.001)).toFixed(6)}, ${(-0.138176 + (Math.random()*0.002-0.001)).toFixed(6)},  ${(0.048621 + (Math.random()*0.002-0.001)).toFixed(6)},  ${(0.270396 + (Math.random()*0.002-0.001)).toFixed(6)}]
+Analog Crossbar Output   : [${(-0.161862 + (Math.random() * 0.002 - 0.001)).toFixed(6)},  ${(0.024492 + (Math.random() * 0.002 - 0.001)).toFixed(6)}, ${(-0.138176 + (Math.random() * 0.002 - 0.001)).toFixed(6)},  ${(0.048621 + (Math.random() * 0.002 - 0.001)).toFixed(6)},  ${(0.270396 + (Math.random() * 0.002 - 0.001)).toFixed(6)}]
 Mean Absolute Error     : ${calculatedMAE} (Sum Abs Error: ${(calculatedMAE * 16).toFixed(6)})
 Status                  : 0 NaN / 0 Inf - Numerical Convergence Stable`;
     }
