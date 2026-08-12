@@ -36,13 +36,12 @@ Within **14 business days**, our engineering team runs your model through our ph
 
 ### Engagement Structure & Pricing
 
-| Engagement Phase | Timeline | Scope & Deliverables | Investment |
+| Engagement Tier | Timeline | Scope & Deliverables | Investment |
 | :--- | :---: | :--- | :---: |
-| **Phase 1: NDA & Model Ingestion** | Days 1–3 | Model topology review (.onnx / .pt), baseline floating-point benchmarking, and NDA setup. | Included |
-| **Phase 2: Digital-Twin Simulation** | Days 4–10 | Hardware-aware noise injection, 8-bit ADC/DAC quantization modeling, and crossbar auto-tiling. | Included |
-| **Phase 3: Audit Delivery & Briefing** | Days 11–14 | Formal 15-page PDF report, energy savings validation, and 60-minute technical executive debrief. | **₹3,000,000 – ₹5,000,000** *(Standard NRE Fee)* |
+| **Tier 1: Prototype Feasibility Evaluation** | 48 Hours | Model topology review (.onnx / .pt), 5-tier 8-bit DAC/ADC quantization & noise sweep, layer-level Risk Concentration Matrix, 5-page PDF report. | **₹25,000 – ₹50,000** |
+| **Tier 2: Full Enterprise Engineering Audit** | 14 Days | Full digital-twin simulation ($N=10$ stochastic seeds), 365-day thermal & conductance drift stress testing, PyTorch hardware-aware retraining recipe & QAT wrapper, 15-page formal PDF report, 60-min executive debrief. | **₹1,50,000 – ₹3,00,000** |
 
-*Optional Upsell:* Conversion of audit results into an ongoing annual **Advaita Compiler SDK Early-Access License** for your internal AI research team (₹1,000,000/month).
+*Optional Retainer:* Quarterly model feasibility monitoring and updated digital-twin audits (₹40,000/quarter).
 
 ---
 
